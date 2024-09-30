@@ -470,7 +470,7 @@
 
 /*BODY*/
 .MCD_B{
-    border: 1px solid rgb(0, 4, 255);
+    border:none;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -478,7 +478,7 @@
 }
 .H,.C{
     background-color: white;
-    border: 1px solid rgb(212, 0, 255);
+    border: none;
     width: 100%;  
     overflow-y: scroll; 
     margin-bottom: 200px;
