@@ -160,7 +160,7 @@ setInterval(()=>{
 },100)
 
 
-//localStorage.setItem('FPC','display')
+localStorage.setItem('FPC','display')
 setInterval(()=>{
     if(localStorage.getItem('FPC')==='display'){
 
