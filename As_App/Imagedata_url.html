@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        {
+            background-image: url(''); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        */
+    </style>
+</head>
+<body>
+    <input type="file" class="IMAGES_FILE">
+</body>
+<script>
+
+
+
+
+
+
+    /****___product_video_File___****/
+    document.querySelector('.IMAGES_FILE').addEventListener('change',(e)=>{
+          let files=e.target.files;
+          let picRender=new FileReader();
+          
+          picRender.addEventListener('load',(event)=>{
+              
+              /****___SET IMAGES DATADASHED__****/
+              console.log(event.target.result)
+          })
+
+          picRender.readAsDataURL(files[0]); 
+      }) 
+</script>
+</html>
